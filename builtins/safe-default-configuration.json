@@ -1,6 +1,24 @@
 {
   "elements": [
     {
+      "name": "a",
+      "namespace": "http://www.w3.org/1998/Math/MathML",
+      "attributes": [
+        {
+          "name": "href",
+          "namespace": null
+        },
+        {
+          "name": "hreflang",
+          "namespace": null
+        },
+        {
+          "name": "type",
+          "namespace": null
+        }
+      ]
+    },
+    {
       "name": "math",
       "namespace": "http://www.w3.org/1998/Math/MathML",
       "attributes": []

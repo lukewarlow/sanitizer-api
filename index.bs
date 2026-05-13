@@ -1087,7 +1087,7 @@ navigation to `javascript:` URLs, but not navigations in general.
 
 Declarative navigation falls into a handful of categories:
 
-  1. Anchor elements. (`<a>` in HTML and SVG namespaces)
+  1. Anchor elements. (`<a>` in HTML, MathML, and SVG namespaces)
   1. Form elements that trigger navigation as part of the form action.
   1. [[MathML]] allows [any element to act as an anchor](
      https://www.w3.org/TR/MathML3/mathml.html#chapter2_fund.globatt).
@@ -1095,7 +1095,7 @@ Declarative navigation falls into a handful of categories:
 
 The first two are covered by the [=built-in navigating URL attributes list=].
 
-The MathML case is covered by a seperate rule, because there is no formalism
+The MathML case is covered by a separate rule, because there is no formalism
 in this spec to cover a "per-namespace global" rule.
 
 The SVG animation case is covered by the
@@ -1607,6 +1607,11 @@ navigations are "unsafe", are as follows:
   [
     { "`name`" &rightarrow; "`a`", "`namespace`" &rightarrow; [=SVG namespace=] },
     { "`name`" &rightarrow; "`href`", "`namespace`" &rightarrow; [=XLink namespace=] }
+  ],
+  <br>
+  [
+    { "`name`" &rightarrow; "`a`", "`namespace`" &rightarrow; [=MathML namespace=] },
+    { "`name`" &rightarrow; "`href`", "`namespace`" &rightarrow; `null` }
   ],
   <br>
 ]»

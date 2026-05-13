@@ -173,6 +173,12 @@ th
 //
 // See also: https://w3c.github.io/mathml-docs/mathml-safe-list
 
+math a
+- href
+- hreflang
+- type
+// Purposely omitted:
+// - target
 math math
 math merror
 math mfrac
